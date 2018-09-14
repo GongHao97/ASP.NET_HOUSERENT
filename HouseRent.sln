@@ -1,0 +1,95 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HouseRent", "HouseRent\", "{42123699-4404-4156-B748-396D035AC5A7}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_2800"
+		Debug.AspNetCompiler.PhysicalPath = "HouseRent\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2800\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_2800"
+		Release.AspNetCompiler.PhysicalPath = "HouseRent\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2800\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2800"
+		SlnRelativePath = "HouseRent\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "hospital", "..\hospital\hospital\", "{B6416355-0897-46C6-BD86-185B3C604BAF}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_7999"
+		Debug.AspNetCompiler.PhysicalPath = "..\hospital\hospital\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_7999\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_7999"
+		Release.AspNetCompiler.PhysicalPath = "..\hospital\hospital\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_7999\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "7999"
+		SlnRelativePath = "..\hospital\hospital\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB_Operation", "..\..\DB_Operation\DB_Operation.csproj", "{A655A98B-C616-475C-8D8A-C370661A2292}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_login", "..\..\Web_login\Web_login\Web_login.csproj", "{1CD5D570-4723-4771-AD6C-17D716E4D0C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebVote", "..\..\WebVote\WebVote\WebVote.csproj", "{19F2F88D-D6A6-4058-9EEA-1B8AA892A736}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "house_rent", "..\house_rent\house_rent.csproj", "{70177449-0D41-4A74-BFF5-B32EB0FDE3F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42123699-4404-4156-B748-396D035AC5A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42123699-4404-4156-B748-396D035AC5A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42123699-4404-4156-B748-396D035AC5A7}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{42123699-4404-4156-B748-396D035AC5A7}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B6416355-0897-46C6-BD86-185B3C604BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6416355-0897-46C6-BD86-185B3C604BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6416355-0897-46C6-BD86-185B3C604BAF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6416355-0897-46C6-BD86-185B3C604BAF}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A655A98B-C616-475C-8D8A-C370661A2292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A655A98B-C616-475C-8D8A-C370661A2292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A655A98B-C616-475C-8D8A-C370661A2292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A655A98B-C616-475C-8D8A-C370661A2292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CD5D570-4723-4771-AD6C-17D716E4D0C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CD5D570-4723-4771-AD6C-17D716E4D0C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CD5D570-4723-4771-AD6C-17D716E4D0C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CD5D570-4723-4771-AD6C-17D716E4D0C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19F2F88D-D6A6-4058-9EEA-1B8AA892A736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F2F88D-D6A6-4058-9EEA-1B8AA892A736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F2F88D-D6A6-4058-9EEA-1B8AA892A736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F2F88D-D6A6-4058-9EEA-1B8AA892A736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70177449-0D41-4A74-BFF5-B32EB0FDE3F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70177449-0D41-4A74-BFF5-B32EB0FDE3F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70177449-0D41-4A74-BFF5-B32EB0FDE3F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70177449-0D41-4A74-BFF5-B32EB0FDE3F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E65ED3A4-E746-4179-A97D-54FE415127D2}
+	EndGlobalSection
+EndGlobal
